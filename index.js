@@ -1,24 +1,25 @@
 // Nav Bar
 
-const bar = document.getElementById('bar');
+const bars = document.getElementById("bars");
 
-const nav = document.getElementById('navbar');
+const nav = document.getElementById("navbar");
 
-const close = document.getElementById('close');
+const close = document.getElementById("close");
 
-if (bar) {
+if (bars) {
 
-    bar.addEventListener('click', () => {
+    bars.addEventListener('click', () => {
 
-        nav.classList.add('active');
+        nav.classList.add("active");
     });
 }
+
 
 if (close) {
 
     close.addEventListener('click', () => {
 
-        nav.classList.remove('active');
+        nav.classList.remove("active");
     });
 }
 
